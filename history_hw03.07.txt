@@ -1,0 +1,81 @@
+   0 whoami
+   1 cd ..
+   2 ls
+   3 ls --help
+   4 cd /
+   5 ls
+   6 cd home
+   7 mkdir animals
+   8 ls
+   9 ls -l
+  10 cd animals/
+  11 mkdir dogs
+  12 mkdir cats
+  13 mkdir fish
+  14 ls
+  15 tree
+  16 cd dogs
+  17 touch pluto.txt
+  18 ls -l
+  19 cd ..
+  20 cd cats
+  21 touch garfield.txt
+  22 ls -1
+  23 ls -l
+  24 cd ..
+  25 cd fish
+  26 touch nemo.txt
+  27 ls -l
+  28 cd ..
+  29 ls
+  30 tree
+  31 cd /
+  32 cd home/
+  33 cd ..
+  34 ls
+  35 cd tmp
+  36 pwd
+  37 touch adam.txt
+  38 ls
+  39 ls -l
+  40 touch eva.txt
+  41 ls -l
+  42 tree /tmp
+  43 cp /tmp/adam.txt && mkdir /home/human
+  44 cp /tmp/adam.txt && mkdir /home/human && /home/human/adam.txt
+  45 cd ..
+  46 cd home
+  47 mkdir human
+  48 ls -l
+  49 ls
+  50 tree
+  51 cd ..
+  52 cd tmp
+  53 cp /tmp/adam.txt /home/human/adam.txt
+  54 cd ..
+  55 cd home
+  56 ls
+  57 tree
+  58 cd ..
+  59 cd tmp
+  60 touch evA
+  61 ls
+  62 tree
+  63 touch evA.txt
+  64 tree
+  65 rm evA
+  66 rm eva.txt
+  67 tree
+  68 mv /tmp/evA.txt /opt/eva.txt
+  69 tree
+  70 cd ..
+  71 cd opt
+  72 tree
+  73 mv /opt/eva.txt /home/human
+  74 cd ..
+  75 cd home
+  76 ls
+  77 ls -l
+  78 tree
+  79 history
+  80 history > history_hw03.07.txt
